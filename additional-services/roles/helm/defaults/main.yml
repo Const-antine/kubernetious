@@ -1,0 +1,10 @@
+---
+helm_version: v3.4.2
+helm_url: https://get.helm.sh/helm-{{ helm_version }}-linux-amd64.tar.gz
+bin_dir: /usr/sbin
+
+# You may also specify a kubernetes release version manually, by default, it's fetched from https://storage.googleapis.com/kubernetes-release/release/stable.txt
+
+# rel_ver: 
+
+kubectl_url: "{{ rel_ver | default('https://storage.googleapis.com/kubernetes-release/release/' + kubectl_ver.stdout + '/bin/linux/amd64/kubectl') }}"

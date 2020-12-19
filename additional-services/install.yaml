@@ -1,0 +1,11 @@
+---
+- name: fetch kubectl config from master
+  hosts: node0
+  roles:
+    - { role: kubeconf }
+
+- name: install helm with Internet
+  hosts: localhost
+  roles:
+    - { role: helm }
+
