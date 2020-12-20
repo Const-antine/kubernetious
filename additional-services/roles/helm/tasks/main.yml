@@ -18,7 +18,7 @@
 - name: copy helm binary
   copy:
     src: /tmp/linux-amd64/helm
-    dest: "{{ bin_dir }}/test-helm"
+    dest: "{{ bin_dir }}/helm"
     mode: 0755
     remote_src: yes
 
