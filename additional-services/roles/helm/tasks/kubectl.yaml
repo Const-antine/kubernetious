@@ -8,11 +8,11 @@
 - name: Download kubectl archive
   get_url:
     url: "{{ kubectl_url }}"
-    dest: "{{ bin_dir }}/kubectll"
+    dest: "{{ bin_dir }}/kubectl"
     mode: 0755
 
 - name: Check if kubectl works properly
-  shell: kubectll get nodes
+  shell: kubectl get nodes
   ignore_errors: yes
   register: kubectlrc
   failed_when: kubectlrc.rc != 0
