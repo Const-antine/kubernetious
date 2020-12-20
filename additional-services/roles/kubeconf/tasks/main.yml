@@ -4,6 +4,6 @@
 - name: Fetch kubeconfig from one of the master nodes
   fetch:
     src: /etc/kubernetes/admin.conf
-    dest: /root/.kube-not-exist/config
+    dest: /root/.kube/config
     flat: yes
 
