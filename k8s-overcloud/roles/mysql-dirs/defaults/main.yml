@@ -1,0 +1,3 @@
+---
+# define a dir for mysql operator 
+mysql_dir: "/var/lib/mysql"
