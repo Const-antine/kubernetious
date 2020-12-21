@@ -9,7 +9,7 @@ spec:
   capacity:
     storage: STORAGE_SIZEGi
   local:
-    path: /mnt/muskul
+    path: STORAGE_PATH
   persistentVolumeReclaimPolicy: Retain
   accessModes:
     - ReadWriteOnce
