@@ -28,10 +28,10 @@ spec:
     log_output: "TABLE"                   # Format in which the logout will be dumped
     master-info-repository: "TABLE"       # Format in which the master info will be dumped
     relay_log_info_repository: "TABLE"    # Format in which the relay info will be dumped
-  volumeSpec:
-    persistentVolumeClaim:
-      accessModes:
-      - ReadWriteMany
-      resources:
-        requests:
-          storage: STORAGE_HEREGi
+#   volumeSpec:
+#     persistentVolumeClaim:
+#       accessModes:
+#       - ReadWriteMany
+#       resources:
+#         requests:
+#           storage: STORAGE_HEREGi
