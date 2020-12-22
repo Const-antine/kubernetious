@@ -1,0 +1,5 @@
+---
+- name: fetch kubectl config from master
+  hosts: kube-node
+  roles:
+    - { role: mysql-dirs }
