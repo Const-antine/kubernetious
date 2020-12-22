@@ -1,5 +1,5 @@
 ---
 - name: create mysql dir
   file: 
-    path: {{ mysql_dir }}
+    path: "{{ mysql_dir }}"
     state: directory
