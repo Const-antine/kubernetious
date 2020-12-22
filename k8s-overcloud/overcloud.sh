@@ -32,7 +32,7 @@ cp -f ${CUR_DIR}/vars_dir/values.yaml ${CUR_DIR}/mysql-operator/values.yaml
 
 kubectl create -f ${CUR_DIR}/vars_dir/storage-class.yaml
 kubectl create -f ${CUR_DIR}/vars_dir/pv.yaml
-kubectl create -f ${CUR_DIR}/vars_dir/pvc.yaml
+#kubectl create -f ${CUR_DIR}/vars_dir/pvc.yaml
 
 sleep 15
 
