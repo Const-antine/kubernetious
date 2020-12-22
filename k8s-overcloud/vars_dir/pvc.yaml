@@ -5,7 +5,6 @@ metadata:
     app: mysql-operator
     release: mysql-operator
   name: data-mysql-operator-0
-  namespace: mysql-operator
 spec:
   storageClassName: manual
   accessModes:
